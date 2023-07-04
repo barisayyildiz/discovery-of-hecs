@@ -10,8 +10,6 @@ Three different regression models, including Linear Regression, Decision Tree Re
 
 Additionally, a deep learning model using a Multilayer Perceptron architecture is developed and trained on the dataset. This model achieves satisfactory results, showcasing the potential of deep learning for hardness prediction.
 
-Overall, this project offers a valuable tool for researchers and material scientists to predict the composition of super-hard HECs with superior hardness properties, accelerating the discovery of advanced functional materials in a high-throughput manner.
-
 ## Results
 
 The regression models, including Linear Regression, Decision Tree Regressor, and Random Forest Regressor, were evaluated using the dataset. The Random Forest Regressor model outperformed the others, achieving an impressive R2 score of 0.82. This high score indicates that approximately 82% of the variance in hardness can be explained by the selected features. The model's ability to leverage the collective knowledge of multiple decision trees resulted in stronger predictive capabilities compared to Linear Regression and the Decision Tree model.
@@ -25,7 +23,6 @@ Furthermore, a deep learning model using a Multilayer Perceptron architecture wa
 Visualization techniques, such as t-distributed Stochastic Neighbor Embedding (t-SNE) and correlation matrices, were employed to gain insights into the learned representations and interrelationships among the features. These visualizations revealed patterns, clusters, and interactions within the data, contributing to the interpretation of the models' predictions.
 
 You can find all the detailed information in the .ipynb files
-
 
 ## Usage
 To use this project, follow the steps below:
